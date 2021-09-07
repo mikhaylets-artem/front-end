@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 100vw;
+   height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.logo-image{
+ width: 30px;
+ height: 30px;
+}
+.logo-desc{
+    font-size: 30px;
+    color:#2d0f74;
+     font-weight: bolder;
+}
+.nav-links{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+.registr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.but-login{
+ border: 2px #4840BB solid;
+ background: white;
+ border-radius: 10%;
+ padding: 15px;
+}
+.but-login>a {
+ font-weight: bold;
+ font-size: 15px;
+ color: #4840BB;
+ text-decoration: none;
+}
+.but-reg{
+    background: #4840BB;
+    text-decoration: none;
+    border-radius: 10%;
+    border: 2px #4840BB;
+    width: 100px;
+    height: 50px;
+}
+.but-reg>a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-link>a{
+    color:#230B59;
+    font-size: 20px;
+    text-decoration: none;
+}
+.wealth{
+    padding-top:30px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 80%; 
+}
+.skate-desc{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-skate{
+   max-width: 90%;
+}
+.skate{
+    width: 100%;
+}
+.skate-desc>h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+.skate-desc>h3{
+
+    font-size: 20px;
+    font-weight: normal;
+}
+h3{
+padding-top: 50px;
+padding-bottom: 50px;
+}
