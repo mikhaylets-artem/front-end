@@ -1,0 +1,22 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/GgIuagHBBnyQ8xwBW6UOfD/Wealthfront?node-id=1%3A2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhaylets-artem/front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikhaylets-artem/front-end/issues"
+  },
+  "homepage": "https://github.com/mikhaylets-artem/front-end#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
