@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/fontawesome-pro-5.15.1-web/css/all.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -19,6 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./src/index.scss">
     <title>Document</title>
   </head>
   <body>
@@ -28,60 +30,60 @@
           <img src="./src/images/logo.png" alt="" class="logo-image" />
           <div class="logo-description">Wealthfront</div>
         </div>
-        <div class="nav-links">
-          <div class="nav-link"><a href="">Invest</a></div>
-          <div class="nav-link"><a href="">Cash</a></div>
-          <div class="nav-link"><a href="">Borrow</a></div>
-          <div class="nav-link"><a href="">Blog</a></div>
-        </div>
+        <ul class="header-links">
+          <li class="header-link_cell"><a href="">Cash</a></li>
+          <li class="header-link_cell"><a href="">Main</a></li>
+          <li class="header-link_cell"><a href="">Borrow</a></li>
+          <li class="header-link_cell"><a href="">Blog</a></li>
+        </ul>
         <div class="register">
           <button class="button-login"><a href="">Log in</a></button>
           <button class="app-button"><a href="">Get Started</a></button>
         </div>
       </header>
-      <section class="wealth">
+      <section class="registration-invite">
         <div class="image-skate">
-          <img src="./src/images/section-1-img.png" alt="" class="skate" />
+          <img src="./src/images/section-1-img.png" alt="" />
         </div>
-        <div class="skate-desc">
-          <h1>Make wealth</h1>
-          <h1>your own.</h1>
-          <h3>
+        <div class="skate-description">
+          <p class="skate_top-line">Make wealth <br> your own.</p>
+          <p class="skate_bottom-line">
             Personalized, Automated, Effortless <br />
             Investing and Savings.
-          </h3>
+          </p>
           <button class="app-button"><a href="">Get Started</a></button>
         </div>
       </section>
       <section class="sponsors">
         <div>
           <div class="">
-            <img src="" alt="" />
+            <img src="./src/images/section2-logo1.png" alt="" />
           </div>
-          <div class=""></div>
+          <div class="sponsors_award"><p>Best Robo-advisor,2019 <sup>1</sup><p> <p>Best Cash Management App, 2020 <sup>1</sup></p>  </div>
         </div>
         <div>
           <div class="">
-            <img src="" alt="" />
+            <img src="./src/images/section2-logo2.png" alt="" />
           </div>
-          <div class=""></div>
+          <div class="sponsors_award">Best Robo-advisor, 2020</div>
         </div>
         <div>
-          <div class=""></div>
-          <div class=""></div>
+          <div class="sponsors_amount-earn">450К+</div>
+          <div class="sponsors_award">Trasted client</div>
         </div>
         <div>
-          <div class=""></div>
-          <div class=""></div>
+          <div class="sponsors_amount-earn">$26B+</div>
+          <div class="sponsors_award">In client funds</div>
         </div>
         <div>
-          <div class=""></div>
-          <div class=""></div>
+          <div class="sponsors_grade">4.9<i class="fas fa-star"></i></div>
+          <div class="sponsors_area">Apple App Store <sup>2</sup></div>
         </div>
         <div>
-          <div class=""></div>
-          <div class=""></div>
+          <div class="sponsors_grade">4.5<i class="fas fa-star"></i></div>
+          <div class="sponsors_area">Google Play Store <sup>2</sup></div>
         </div>
+        
       </section>
     </div>
   </body>

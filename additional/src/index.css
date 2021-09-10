@@ -13,6 +13,7 @@
   justify-content: space-around;
 }
 .logo {
+  width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -22,12 +23,13 @@
   width: 30px;
   height: 30px;
 }
-.logo-desc {
+.logo-description {
   font-size: 30px;
   color: #2d0f74;
   font-weight: bolder;
 }
-.nav-links {
+.header-links {
+  list-style: none;;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -48,75 +50,127 @@
   padding: 15px;
   margin-right: 10px;
 }
-.but-login > a {
+.button-login > a {
   font-weight: bold;
   font-size: 15px;
   color: #4840bb;
   text-decoration: none;
 }
-.but-reg {
-  background: #4840bb;
-  text-decoration: none;
-  border-radius: 10%;
-  border: 2px #4840bb;
-  width: 100px;
-  height: 50px;
-}
-.but-reg > a {
+
+.app-button > a {
   color: white;
   font-weight: bold;
   text-decoration: none;
   font-size: 15px;
 }
-.nav-link {
+.header-link_cell {
   margin: 0 8px;
 }
-.nav-link > a {
+.header-link_cell a {
+  
   color: #230b59;
   font-size: 20px;
   text-decoration: none;
 }
-.wealth {
+.header-link_cell a:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.registration-invite {
   padding-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
 }
-.skate-desc {
+.skate-description {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   min-width: 305px;
   margin-left: 12px;
 }
 
 .image-skate {
-  max-width: 90%;
+  max-width: 100%;
 }
-.skate {
+.image-skate img {
   width: 100%;
 }
-.skate-desc > h1 {
+ .skate_top-line {
+  color: #230b59;
+
   font-size: 50px;
   font-weight: normal;
 }
-.skate-desc > h3 {
+.skate_bottom-line {
+  color: #230b59;
+
   font-size: 20px;
   font-weight: normal;
 }
-h3 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .app-button {
-  padding: 8px 12px;
+  padding: 14px 12px;
+  border-radius: 10px;
   background-color: #2d0f74;
   min-width: 120px;
   max-width: 150px;
 }
+.sponsors{
+  max-width:100%;
+  flex-wrap: wrap;
+  color: #2d0f74;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center ;
+  align-items: center;
+}
+.sponsors_award,.sponsors_area{
+  padding:10px 0;
+  font-size: 12px;
+font-weight: 600;
+}
+.sponsors_amount-earn,.sponsors_grade{
+  font-size: 25px;
+  font-weight: 550;
 
-.app-button a {
-  color: white;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 750px){
+.header{
+  display: none;
+}
+.registration-invite{
+  flex-wrap: wrap;
+}
+.skate-description{
+  padding:  15px 0;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.skate_bottom-line {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 15px 0;
+}
+.sponsors{
+flex-direction: column;
+}
+}
+@media screen and (max-width: 318px){
+ body{
+   display: none;
+ }
 }
